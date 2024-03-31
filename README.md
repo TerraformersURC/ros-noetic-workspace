@@ -97,3 +97,7 @@ In addition, paths mentioned across both the files that contain user directory
 might need to be updated.
 
 My suggestion: Simply find and replace the username keyword in both the files.
+
+### Credits
+
+This [article](https://www.allisonthackston.com/articles/vscode-docker-ros2) by Allison Thackston.
