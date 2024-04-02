@@ -24,7 +24,6 @@
 		"--cap-add=SYS_PTRACE",
 		"--security-opt=seccomp:unconfined",
 		"--security-opt=apparmor:unconfined",
-    "--volume=${localEnv:HOME}/.gnupg:/home/noetic-dev/.gnupg", // Mounting this folder allows signed git commits using GPG key.
 		"--volume=/tmp/.X11-unix:/tmp/.X11-unix",
 		"--volume=/run/user:/run/user",
 		"--ipc=host",
